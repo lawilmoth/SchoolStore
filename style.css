@@ -1,0 +1,90 @@
+/*
+Dark Purple #331460
+Light Purple #60348F
+Yellow #FFCC00
+Gold #F3BF00
+*/
+
+*{
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    background: #60348F;
+
+
+}
+
+h1{
+    justify-content: center;
+    text-align:center;
+    background: #FFCC00;
+    color:#60348F;
+    font-size: 50px;
+    padding: 10px;
+    margin: 0px 0px;
+    /*margin-block-start: 0;
+    margin-block-end: 0; */
+}
+
+.banner.center{
+    position: relative;
+    z-index: -1;
+}
+.navbar{
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.navbar__items{
+
+    list-style: none;
+    display:flex;
+    align-items: center;
+
+
+}
+ .featured-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+.nav__item__link{
+    color: #FFCC00;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 25px;
+
+
+
+    
+}
+.nav__item__link:hover{
+    background: #FFCC00;
+    color: black;
+}
+
+#E-div{
+    margin-right: auto;
+}
+#Elogo{
+
+    transition: transform .2s ease-in;
+    padding: 10px;
+}
+
+#Elogo:hover{
+    transform:skew(10deg, 0deg)
+}
+
+.everything{
+    display: grid;
+}
